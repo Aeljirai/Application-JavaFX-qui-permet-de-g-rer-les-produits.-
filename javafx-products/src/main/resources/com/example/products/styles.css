@@ -1,0 +1,46 @@
+/* Basic look & feel */
+.root {
+    -fx-font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    -fx-base: #f7f7fb;
+}
+
+.label {
+    -fx-font-size: 13px;
+}
+
+.text-field {
+    -fx-background-radius: 8;
+    -fx-padding: 8 10;
+}
+
+.button {
+    -fx-background-radius: 8;
+    -fx-padding: 8 14;
+}
+
+.button.primary {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+}
+
+.button.danger {
+    -fx-background-color: #ef4444;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-insets: 0;
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 8;
+}
+
+.status-bar {
+    -fx-padding: 8 12;
+    -fx-spacing: 8;
+    -fx-background-color: #f3f4f6;
+    -fx-border-color: #e5e7eb;
+    -fx-border-width: 1 0 0 0;
+}
